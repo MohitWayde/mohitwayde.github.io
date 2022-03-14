@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+/*============================== navbar started ============================== */
+
+/* font-family: 'Segoe UI', Arial, sans-serif; */
+
+.mynavbar{
+    width: 100%;
+    display: flex;
+}
+.logo{
+    display: flex;
+    width: 30%;
+}
+.sidebar-logo{
+    display: none;
+}
+.sidebar-active{
+    display: none;
+}
+
+.logo h3{
+    cursor: pointer;
+}
+.nav-items{
+    display: flex;
+    width: 70%;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 0;
+}
+.nav-items li a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px 0 0;
+    font-weight: bold;
+}
+.burger{
+    position: absolute;
+    right: 5%;
+    top: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+.line{
+    width: 30px;
+    background-color: black;
+    height: 4px;
+    margin: 5px 3px;
+    border-radius: 2px;
+}
+
+.checkbtn{
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    line-height: 80px;
+    margin-right: 40px;
+    margin-top: 25px;
+    cursor: pointer;
+    
+}
+
+#check{
+    display: none;
+}
+/*============================== navbar end==============================*/
+
+/*============================== my-main-container started ============================== */
+
+/* ==================== My data container started ==================== */
+.my-data-container{
+    text-align: center;
+    color: white;
+}
+.my-background-class{
+    background: url(../img/coding-laptop.jpg);
+    background-size: cover;
+    height: 100%;
+    /* opacity: 0.9; */
+    background-blend-mode: color-dodge;
+}
+/* ==================== My data container end ==================== */
+
+/* ==================== about-me-section started ====================*/
+
+
+.about-me-section h1{
+    text-align: center;
+    margin: 2rem;
+}
+
+.about-me-partitions{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.about-partition-1{   
+    padding: 2%;
+    width: 50%;
+}
+
+.about-partition-2{
+    padding: 2%;
+}
+
+.about-partition-3{  
+    padding: 2%;
+}
+
+.about-partition-4{
+    padding: 2%;
+}
+
+.about-partition-5{  
+    padding: 2%;
+    width: 50%;
+}
+
+.my-skills-section, .my-projects-section h2{
+    text-align: center;
+}
+
+
+
+/* ====================my-education-section started ==================== */
+.my-education-section{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.my-education-section h2{
+    text-align: center;
+}
+.my-education-details-section{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.my-education-details-inner{
+    /* display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items:center; */
+    
+    width: 33%;
+}
+.my-education-section p{
+    padding: 1%;
+    margin-bottom:0;
+}
+
+/* ====================my-education-section end ==================== */
+
+/* ====================about-me-section end ==================== */
+
+/* ====================my-main-container end ==================== */
+
+/* ======================================================================================================== */
+
+/* my utilities */
+.source-code-font{
+    font-family: 'Source Code Pro';
+}
+
+
+.mybtn{
+    padding: 0 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: silver;
+}
+
+
+
+
+/* social media icons */
+
+.my-social-handles a{
+    text-decoration: none;
+}
+.my-social-handles i{
+    font-size: 40px;
+    
+}
+.my-social-handles a:hover{
+    text-decoration: none;
+}
+
+.fa{
+    padding: 5px;
+}
+.fa-instagram:hover{
+    color: purple;
+}
+.fa-github:hover{
+    color: darkgreen;
+}
+.fa-youtube:hover{
+    color: red;
+}
+.fa-linkedin:hover{
+    color: #043566;
+}
+.fa-facebook:hover{
+    /* color: blue; */
+    color: #183153;
+}
+
+
+/* footer started */
+.footerclass {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: space-between;
+    background-color: #2a2b2d;
+    margin-top: 50px;
+}
+
+.footerbox {
+    /* border: 3px solid red; */
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.footerclass h4 {
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#footerbox2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#footerbox2 i {
+    font-size: 30px;
+    /* color: white; */
+}
+#footerbox2 a {
+    
+    color: white;
+}
+
+#footerbox2 a {
+    padding-right: 10px;
+
+}
+
+.fa{
+    padding: 5px;
+}
+.fa-instagram:hover{
+    color: purple;
+}
+.fa-github:hover{
+    color: darkgreen;
+}
+.fa-youtube:hover{
+    color: red;
+}
+.fa-linkedin:hover{
+    color: #043566;
+}
+.fa-facebook:hover{
+    /* color: blue; */
+    color: #183153;
+}
+
+/* .fa {
+    border-radius: 5px;
+}
+
+.fa-instagram:hover {
+    background-color: purple;
+}
+
+.fa-github:hover {
+    background-color: green;
+}
+
+.fa-youtube:hover {
+    background-color: red;
+}
+
+.fa-linkedin:hover {
+    background-color: #0a66c2;
+}
+
+.fa-facebook:hover {
+    background-color: lightblue;
+} */
+
+.fa-angle-up {
+    cursor: pointer;
+    scroll-behavior: smooth;
+
+}
+
+/* FOOTER MEDIA QUERY */
+
+
+@media screen and (max-width: 850px) {
+    .footerclass {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .footerbox {
+        /* display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap; */
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #footerbox2 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+}
+
+/* footer end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1120px)
+{
+    .about-me-partitions{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 786px) 
+{
+    .my-background-class {
+        height: 100%;
+        
+    }
+    .my-data-container h1,.my-data-container h2,.my-data-container h3{
+        padding: 0;
+        margin: 0;
+    }
+    .about-me-partitions{
+        padding: 0;
+    }
+    .about-partition-1 {
+        padding: 2%;
+        width: 100%;
+    }
+    .about-partition-2 {
+        width: 100%;
+        
+    }
+    .my-education-details-section {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .my-education-details-inner {
+        width: 100%;
+    }
+    .about-partition-5 {
+        padding: 0;
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .sidebar-active{
+        display: block;
+    }
+    
+    .checkbtn{
+        display: block;
+    }
+    
+    .nav-items{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        /* background-color: #2c3e50; */
+        background-color: #3e2928;
+        left: -100%;
+        text-align: center;
+        transition: 0.5s;
+        padding-left: 0!important;
+    }
+
+    nav ul li a{
+        font-size: 20px;
+        
+    }
+    
+
+    a.hover, a.active{
+        background: none;
+        color: #0082e6;
+    }
+
+    #check:checked~ul{
+        left: 0;
+    }
+    
+    
+}
+
+@media screen and (max-width: 530px) {
+    .logo h3{
+        display: none;
+    }
+}
