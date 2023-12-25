@@ -2,6 +2,8 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
+import { Tilt } from "react-tilt";
+
 import { motion } from "framer-motion";
 import "react-vertical-timeline-component/style.min.css";
 import { styles } from "../styles";
@@ -21,6 +23,7 @@ const ExperienceCard = ({ experience }) => (
       </div>
     }
   >
+    <Tilt options={{max:45, scale:1, speed:450}}>
     <div>
       <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
       <p className="text-secondary text-[16px] font-bold" style={{ margin: 0 }}>{experience.company_name}</p>
@@ -33,6 +36,7 @@ const ExperienceCard = ({ experience }) => (
       ))}
 
     </ul>
+    </Tilt>
 
   </VerticalTimelineElement>
 
