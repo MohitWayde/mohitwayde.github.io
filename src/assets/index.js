@@ -27,7 +27,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import Rakuten from "./company/Rakuten.webp";
-import iRely from "./company/irely.webp";
+import iRely from "./company/iRely.webp";
 import Proffus from "./company/proffus.png";
 
 
