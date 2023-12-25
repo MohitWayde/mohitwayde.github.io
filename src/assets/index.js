@@ -26,6 +26,11 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import Rakuten from "./company/Rakuten.webp";
+import iRely from "./company/irely.webp";
+import Proffus from "./company/proffus.png";
+
+
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -58,6 +63,9 @@ export {
   shopify,
   starbucks,
   tesla,
+  Rakuten,
+  iRely,
+  Proffus,
   carrent,
   jobit,
   tripguide,

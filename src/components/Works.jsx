@@ -51,7 +51,7 @@ const Works = () => {
 		varients={fadeIn("","",0.1,1)}
 		className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
 		>
-			Followigng project showcases my experience & skills  through real-world examples of my work. Each project is briefly described & having a code repositories. It reflects my ability to solve complex problems, manage project effectively & use by learning new technologies. 
+			Following project showcases my experience & skills  through real-world examples of my work. Each project is briefly described & having a code repositories. It reflects my ability to solve complex problems, manage project effectively & use by learning new technologies. 
 		</motion.p>
       </div>
 	  <div className="mt-20 flex flex-wrap gap-7">

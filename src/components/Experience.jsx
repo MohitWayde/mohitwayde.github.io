@@ -33,6 +33,7 @@ const ExperienceCard = ({ experience }) => (
         <li key={`experience-point-{index}`} className="text-white text-[14px] pl-1 tracking-wider">
           {point}
         </li>
+        
       ))}
 
     </ul>
