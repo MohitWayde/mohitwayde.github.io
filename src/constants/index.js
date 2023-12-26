@@ -126,9 +126,9 @@ import {
 	  date: "March 2022 - June 2022",
 	  points: [
 		"Developing and maintaining web applications using WordPress and other related technologies.",
-		"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
 		"Implementing responsive design and ensuring cross-browser compatibility.",
-		"Participating in code reviews and providing constructive feedback to other developers.",
+		"Participating in code reviews and taking constructive feedback from other developers.",
+		"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
 	  ],
 	},
 	{
@@ -141,7 +141,7 @@ import {
 		"Developing and maintaining web applications using DotNet, JavaScript and other related technologies.",
 		"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
 		"Implementing responsive design and ensuring cross-browser compatibility.",
-		"Participating in code reviews and providing constructive feedback to other developers.",
+		"Participating in code reviews and taking constructive feedback from other developers.",
 	  ],
 	},
 	{
@@ -152,9 +152,9 @@ import {
 	  date: "Sep 2023 - Present",
 	  points: [
 		"Developing and maintaining web applications using React.js and other related technologies.",
+		"Participating in code reviews and taking constructive feedback from other developers.",
 		"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
 		"Implementing responsive design and ensuring cross-browser compatibility.",
-		"Participating in code reviews and providing constructive feedback to other developers.",
 	  ],
 	},
   ];
