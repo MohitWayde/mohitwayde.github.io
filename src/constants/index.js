@@ -26,230 +26,239 @@ import {
 	jobit,
 	tripguide,
 	threejs,
-  } from "../assets";
-  
-  export const navLinks = [
+	textutils,
+	inotebook,
+	newsmonkey,
+} from "../assets";
+
+export const navLinks = [
 	{
-	  id: "about",
-	  title: "About",
+		id: "about",
+		title: "About",
 	},
 	{
-	  id: "work",
-	  title: "Work",
+		id: "work",
+		title: "Work",
 	},
 	{
-	  id: "contact",
-	  title: "Contact",
+		id: "contact",
+		title: "Contact",
 	},
-  ];
-  
-  const services = [
+];
+
+const services = [
 	{
-	  title: "Web Developer",
-	  icon: web,
-	},
-	{
-	  title: "Frontend Developer",
-	  icon: mobile,
+		title: "Web Developer",
+		icon: web,
 	},
 	{
-	  title: "Backend Developer",
-	  icon: backend,
+		title: "Frontend Developer",
+		icon: mobile,
 	},
 	{
-	  title: "Full Stack Web Developer",
-	  icon: creator,
-	},
-  ];
-  
-  const technologies = [
-	{
-	  name: "HTML 5",
-	  icon: html,
+		title: "Backend Developer",
+		icon: backend,
 	},
 	{
-	  name: "CSS 3",
-	  icon: css,
+		title: "Full Stack Web Developer",
+		icon: creator,
+	},
+];
+
+const technologies = [
+	{
+		name: "HTML 5",
+		icon: html,
 	},
 	{
-	  name: "JavaScript",
-	  icon: javascript,
+		name: "CSS 3",
+		icon: css,
 	},
 	{
-	  name: "TypeScript",
-	  icon: typescript,
+		name: "JavaScript",
+		icon: javascript,
 	},
 	{
-	  name: "React JS",
-	  icon: reactjs,
+		name: "TypeScript",
+		icon: typescript,
 	},
 	{
-	  name: "Redux Toolkit",
-	  icon: redux,
+		name: "React JS",
+		icon: reactjs,
 	},
 	{
-	  name: "Tailwind CSS",
-	  icon: tailwind,
+		name: "Redux Toolkit",
+		icon: redux,
 	},
 	{
-	  name: "Node JS",
-	  icon: nodejs,
+		name: "Tailwind CSS",
+		icon: tailwind,
 	},
 	{
-	  name: "MongoDB",
-	  icon: mongodb,
+		name: "Node JS",
+		icon: nodejs,
 	},
 	{
-	  name: "Three JS",
-	  icon: threejs,
+		name: "MongoDB",
+		icon: mongodb,
 	},
 	{
-	  name: "git",
-	  icon: git,
+		name: "Three JS",
+		icon: threejs,
 	},
 	{
-	  name: "figma",
-	  icon: figma,
+		name: "git",
+		icon: git,
 	},
 	{
-	  name: "docker",
-	  icon: docker,
-	},
-  ];
-  
-  const experiences = [
-	{
-	  title: "Web Developer",
-	  company_name: "Proffus",
-	  icon: Proffus,
-	  iconBg: "#223438",
-	  date: "March 2022 - June 2022",
-	  points: [
-		"Developing and maintaining web applications using WordPress and other related technologies.",
-		"Implementing responsive design and ensuring cross-browser compatibility.",
-		"Participating in code reviews and taking constructive feedback from other developers.",
-		"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-	  ],
+		name: "figma",
+		icon: figma,
 	},
 	{
-	  title: "Software Engineer",
-	  company_name: "iRely",
-	  icon: iRely,
-	  iconBg: "#FFFFFF",
-	  date: "May 2023 - July 2023",
-	  points: [
-		"Developing and maintaining web applications using DotNet, JavaScript and other related technologies.",
-		"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-		"Implementing responsive design and ensuring cross-browser compatibility.",
-		"Participating in code reviews and taking constructive feedback from other developers.",
-	  ],
+		name: "docker",
+		icon: docker,
+	},
+];
+
+const experiences = [
+	{
+		title: "Web Developer",
+		company_name: "Proffus",
+		icon: Proffus,
+		iconBg: "#223438",
+		date: "March 2022 - June 2022",
+		points: [
+			"Developing and maintaining web applications using WordPress and other related technologies.",
+			"Implementing responsive design and ensuring cross-browser compatibility.",
+			"Participating in code reviews and taking constructive feedback from other developers.",
+			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+		],
 	},
 	{
-	  title: "Software Engineer",
-	  company_name: "Rakuten",
-	  icon: Rakuten,
-	  iconBg: "#FFFFFF",
-	  date: "Sep 2023 - Present",
-	  points: [
-		"Developing and maintaining web applications using React.js and other related technologies.",
-		"Participating in code reviews and taking constructive feedback from other developers.",
-		"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-		"Implementing responsive design and ensuring cross-browser compatibility.",
-	  ],
-	},
-  ];
-  
-  const testimonials = [
-	{
-	  testimonial:
-		"Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, aperiam possimus accusantium",
-	  name: "Sara Tancredi",
-	  designation: "CFO",
-	  company: "ABC Co",
-	  image: "https://randomuser.me/api/portraits/women/4.jpg",
+		title: "Software Engineer",
+		company_name: "iRely",
+		icon: iRely,
+		iconBg: "#FFFFFF",
+		date: "May 2023 - July 2023",
+		points: [
+			"Developing and maintaining web applications using DotNet, JavaScript and other related technologies.",
+			"Collaborating with cross-functional teams including, product managers, and other developers to create high-quality products.",
+			"Implementing responsive design and ensuring end-to-end validations.",
+			"Participating in code reviews and taking constructive feedback from other developers.",
+		],
 	},
 	{
-	  testimonial:
-		"Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, aperiam possimus accusantium",
-	  name: "Chris Hemsworth",
-	  designation: "COO",
-	  company: "DEF Corp",
-	  image: "https://randomuser.me/api/portraits/men/5.jpg",
+		title: "Software Engineer",
+		company_name: "Rakuten",
+		icon: Rakuten,
+		iconBg: "#FFFFFF",
+		date: "Sep 2023 - Present",
+		points: [
+			"Developing and maintaining web applications using React.js, Flask and other related technologies.",
+			"Participating in code reviews and taking constructive feedback from other developers.",
+			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+			"Implementing responsive design and ensuring cross-browser compatibility & end to end validations.",
+		],
+	},
+];
+
+const testimonials = [
+	{
+		testimonial:
+			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, aperiam possimus accusantium",
+		name: "Sara Tancredi",
+		designation: "CFO",
+		company: "ABC Co",
+		image: "https://randomuser.me/api/portraits/women/4.jpg",
 	},
 	{
-	  testimonial:
-		"Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, aperiam possimus accusantium",
-	  name: "Brian O'Corner",
-	  designation: "CTO",
-	  company: "XYZ enterprices",
-	  image: "https://randomuser.me/api/portraits/women/6.jpg",
-	},
-  ];
-  
-  const projects = [
-	{
-	  name: "Car Rent",
-	  description:
-		"Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-	  tags: [
-		{
-		  name: "react",
-		  color: "blue-text-gradient",
-		},
-		{
-		  name: "mongodb",
-		  color: "green-text-gradient",
-		},
-		{
-		  name: "tailwind",
-		  color: "pink-text-gradient",
-		},
-	  ],
-	  image: carrent,
-	  source_code_link: "https://github.com/",
+		testimonial:
+			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, aperiam possimus accusantium",
+		name: "Chris Hemsworth",
+		designation: "COO",
+		company: "DEF Corp",
+		image: "https://randomuser.me/api/portraits/men/5.jpg",
 	},
 	{
-	  name: "Job IT",
-	  description:
-		"Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-	  tags: [
-		{
-		  name: "react",
-		  color: "blue-text-gradient",
-		},
-		{
-		  name: "restapi",
-		  color: "green-text-gradient",
-		},
-		{
-		  name: "scss",
-		  color: "pink-text-gradient",
-		},
-	  ],
-	  image: jobit,
-	  source_code_link: "https://github.com/",
+		testimonial:
+			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, aperiam possimus accusantium",
+		name: "Brian O'Corner",
+		designation: "CTO",
+		company: "XYZ enterprices",
+		image: "https://randomuser.me/api/portraits/women/6.jpg",
 	},
+];
+
+const projects = [
 	{
-	  name: "Trip Guide",
-	  description:
-		"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-	  tags: [
-		{
-		  name: "nextjs",
-		  color: "blue-text-gradient",
-		},
-		{
-		  name: "supabase",
-		  color: "green-text-gradient",
-		},
-		{
-		  name: "css",
-		  color: "pink-text-gradient",
-		},
-	  ],
-	  image: tripguide,
-	  source_code_link: "https://github.com/",
+		name: "iNotebook",
+		description:
+			"Cutting edge online note taking platform designed to enhance note-taking experience.",
+		tags: [
+			{
+				name: "React JS",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "REST API",
+				color: "orange-text-gradient",
+			},
+			{
+				name: "Bootstrap",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "Node JS",
+				color: "green-text-gradient",
+			},
+		],
+		image: inotebook,
+		source_code_link: "https://mohitwayde.github.io/inotebook/",
 	},
-  ];
-  
-  export { services, technologies, experiences, testimonials, projects };
+
+	{
+		name: "Textutils",
+		description:
+			"TextUtils is a fundamental utility for text manipulation for ease & convenience",
+		tags: [
+			{
+				name: "React JS",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Bootstrap",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "CSS",
+				color: "green-text-gradient",
+			},
+		],
+		image: textutils,
+		source_code_link: "https://mohitwayde.github.io/textutils/",
+	},
+
+	{
+		name: "NewsMonkey",
+		description:
+			"Comprehensive news platform, allow users to categorize news and show popular news.",
+		tags: [
+			{
+				name: "React JS",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "NewsAPI",
+				color: "green-text-gradient",
+			},
+			{
+				name: "Bootstrap",
+				color: "pink-text-gradient",
+			},
+		],
+		image: newsmonkey,
+		source_code_link: "https://github.com/MohitWayde/NewsMonkey",
+	},
+];
+
+export { services, technologies, experiences, testimonials, projects };

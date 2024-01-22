@@ -36,6 +36,10 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import textutils from './textutils.png';
+import inotebook from './inotebook.png';
+import newsmonkey from "./newsmonkey.png";
+
 export {
   mlogo,
   logo,
@@ -69,4 +73,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  textutils,
+  inotebook,
+  newsmonkey,
 };
