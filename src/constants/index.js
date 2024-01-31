@@ -15,6 +15,9 @@ import {
 	git,
 	figma,
 	docker,
+	flask,
+	python,
+	django,
 	meta,
 	starbucks,
 	tesla,
@@ -60,7 +63,7 @@ const services = [
 		icon: backend,
 	},
 	{
-		title: "Full Stack Web Developer",
+		title: "Full Stack Developer",
 		icon: creator,
 	},
 ];
@@ -87,6 +90,19 @@ const technologies = [
 		icon: reactjs,
 	},
 	{
+		name: "python",
+		icon: python,
+	},
+	{
+		name: "Flask",
+		icon: flask,
+	},
+	{
+		name: "Django",
+		icon: django,
+	},
+	
+	{
 		name: "Redux Toolkit",
 		icon: redux,
 	},
@@ -102,22 +118,15 @@ const technologies = [
 		name: "MongoDB",
 		icon: mongodb,
 	},
-	{
-		name: "Three JS",
-		icon: threejs,
-	},
+	// {
+	// 	name: "Three JS",
+	// 	icon: threejs,
+	// },
 	{
 		name: "git",
 		icon: git,
 	},
-	{
-		name: "figma",
-		icon: figma,
-	},
-	{
-		name: "docker",
-		icon: docker,
-	},
+	
 ];
 
 const experiences = [
@@ -166,7 +175,7 @@ const testimonials = [
 	{
 		testimonial:
 			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, aperiam possimus accusantium",
-		name: "Sara Tancredi",
+		name: "Saran Tancredi",
 		designation: "CFO",
 		company: "ABC Co",
 		image: "https://randomuser.me/api/portraits/women/4.jpg",
@@ -213,7 +222,7 @@ const projects = [
 			},
 		],
 		image: inotebook,
-		source_code_link: "https://mohitwayde.github.io/inotebook/",
+		source_code_link: "https://github.com/MohitWayde/inotebook-development-edition",
 	},
 
 	{
@@ -241,7 +250,7 @@ const projects = [
 	{
 		name: "NewsMonkey",
 		description:
-			"Comprehensive news platform, allow users to categorize news and show popular news.",
+			"Comprehensive news platform, allow users to see categorized and popular news.",
 		tags: [
 			{
 				name: "React JS",

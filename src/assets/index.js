@@ -22,6 +22,13 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+// import flask from "./tech/flask.png";
+import flask from "./tech/flask2.svg";
+import python from "./tech/python.png";
+import django from "./tech/django.png";
+
+
+
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -63,6 +70,9 @@ export {
   tailwind,
   typescript,
   threejs,
+  flask,
+  python,
+  django,
   meta,
   shopify,
   starbucks,
