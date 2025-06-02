@@ -131,16 +131,16 @@ const technologies = [
 
 const experiences = [
 	{
-		title: "Web Developer",
-		company_name: "Proffus",
-		icon: Proffus,
-		iconBg: "#223438",
-		date: "March 2022 - June 2022",
+		title: "Software Engineer",
+		company_name: "Rakuten",
+		icon: Rakuten,
+		iconBg: "#FFFFFF",
+		date: "Sep 2023 - Present",
 		points: [
-			"Developing and maintaining web applications using WordPress and other related technologies.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
+			"Developing and maintaining web applications using React.js, Flask and other related technologies.",
 			"Participating in code reviews and taking constructive feedback from other developers.",
 			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+			"Implementing responsive design and ensuring cross-browser compatibility & end to end validations.",
 		],
 	},
 	{
@@ -157,18 +157,19 @@ const experiences = [
 		],
 	},
 	{
-		title: "Software Engineer",
-		company_name: "Rakuten",
-		icon: Rakuten,
-		iconBg: "#FFFFFF",
-		date: "Sep 2023 - Present",
+		title: "Web Developer",
+		company_name: "Proffus",
+		icon: Proffus,
+		iconBg: "#223438",
+		date: "March 2022 - June 2022",
 		points: [
-			"Developing and maintaining web applications using React.js, Flask and other related technologies.",
+			"Developing and maintaining web applications using WordPress and other related technologies.",
+			"Implementing responsive design and ensuring cross-browser compatibility.",
 			"Participating in code reviews and taking constructive feedback from other developers.",
 			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility & end to end validations.",
 		],
 	},
+	
 ];
 
 const testimonials = [
