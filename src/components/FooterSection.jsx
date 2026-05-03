@@ -42,7 +42,7 @@ const FooterSection = () => {
         {showPopover && (
           <div className="absolute left-1/2 -translate-x-1/2 top-10 z-10 bg-gray-800 text-white rounded-xl shadow-lg px-4 py-2 text-sm text-center">
           Email:
-          mohitwayde17@gmail.com
+          mohitmaheshwayde@gmail.com
           </div>
         )}
         </div>
